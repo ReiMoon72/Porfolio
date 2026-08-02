@@ -3,11 +3,23 @@ import { ref } from "vue";
 import github from "../assets/icons/github.svg";
 import facebook from "../assets/icons/facebook-tag.svg";
 import { Mail, ArrowUp } from "@lucide/vue";
+
+const ClickBackToTop = (id) => {
+  const HomeScroolUpTop = document.getElementById(id);
+  if (HomeScroolUpTop) {
+    HomeScroolUpTop.scrollIntoView({
+      behavior: "smooth",
+      block: "center",
+    });
+  }
+};
 </script>
 
 <template>
   <footer class="font-inter p-2 bg-UltraDarkBlue text-white">
-    <div class="flex justify-between items-center p-2 flex-col gap-5 md:flex-row">
+    <div
+      class="flex justify-between items-center p-2 flex-col gap-5 md:flex-row"
+    >
       <div class="flex items-center gap-3">
         <div>
           <p
@@ -24,7 +36,7 @@ import { Mail, ArrowUp } from "@lucide/vue";
       <!--Links-->
       <div class="flex items-center gap-3">
         <a
-          class="border-[2px] p-[3px] rounded-full" 
+          class="border-[2px] p-[3px] rounded-full"
           target="_blank"
           href="https://github.com/ReiMoon72"
         >
@@ -50,9 +62,12 @@ import { Mail, ArrowUp } from "@lucide/vue";
         </a>
       </div>
       <!--Back To Top-->
-      <div class="cursor-pointer" @click="ClickBackToTop">
-        <div class=" flex items-center gap-3">
-          <ArrowUp size="35" class="border-[1px] p-1 rounded-full cursor-pointer" />
+      <div class="cursor-pointer" @click="ClickBackToTop('HomeID')">
+        <div class="flex items-center gap-3">
+          <ArrowUp
+            size="35"
+            class="border-[1px] p-1 rounded-full cursor-pointer"
+          />
           <div>
             <p>Back To Top</p>
           </div>
