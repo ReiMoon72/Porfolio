@@ -6,14 +6,23 @@ const skills = ["HTML5", "CSS3", "JavaScript", "Vue", "Tailwind CSS"];
 </script>
 
 <template>
-  <header class="font-inter p-15">
+  <header class="font-inter p-15" data-aos="fade-up" data-aos-duration="800">
     <div class="text-center">
       <b class="text-3xl">Skils</b>
+      <p class="text-[13px]">
+        Tools and technologies i used to build a clean, <br />
+        Functioning, and efficient Website.
+      </p>
     </div>
   </header>
 
-  <main class="font-inter p-2">
-    <div class="flex justify-between p-3 flex-wrap flex-col md:flex-row">
+  <main
+    class="font-inter p-2"
+    data-aos="fade-up"
+    data-aos-duration="700"
+    id="SkillsScrollUp"
+  >
+    <div class="flex justify-between p-3 gap-2 flex-wrap flex-col md:flex-row">
       <div class="border-[1px] border-gray-300 rounded-xl w-86">
         <div class="flex justify-start items-center gap-3 text-2xl p-5">
           <CodeXml size="35" />
@@ -80,14 +89,20 @@ const skills = ["HTML5", "CSS3", "JavaScript", "Vue", "Tailwind CSS"];
     </div>
   </main>
 
-  <header class="font-inter py-5 py-10">
+  <header
+    class="font-inter py-5 py-10"
+    data-aos="fade-up"
+    data-aos-duration="700"
+  >
     <div class="text-center">
       <b class="text-3xl">Soft Skills</b>
     </div>
   </header>
 
-  <main class="font-inter">
-    <div class="text-white flex justify-center items-center flex-col md:flex-row gap-5 p-5">
+  <main data-aos="fade-up" data-aos-duration="700" class="font-inter">
+    <div
+      class="text-white flex justify-center items-center flex-col md:flex-row gap-5 p-5"
+    >
       <p class="bg-darkblue w-23 text-center p-1 rounded-full text-[11px]">
         Communication
       </p>

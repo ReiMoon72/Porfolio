@@ -4,4 +4,8 @@
 @theme {
   --font-inter: "Inter", sans-serif;
   --color-darkblue: #13153b;
+  --color-UltraDarkBlue: #0b0f1a;
+  --color-skyblue: #3b82f6;
+  --color-hoversky: #1d4ed8;
+  --color-hoverdark: #1e235a;
 }

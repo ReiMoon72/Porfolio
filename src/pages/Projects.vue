@@ -15,12 +15,16 @@ import CafeWebLogo from "../assets/img/CafeWeb.png";
     </div>
   </header>
 
-  <main class="font-inter p-2">
-    <div class=" grid grid-cols-1 grid-rows-2 gap-3 p-2 md:grid-cols-3 place-content-center">
+  <main class="font-inter p-2" data-aos="fade-right" data-aos-duration="800" id="ProjectUp">
+    <div
+      class="grid grid-cols-1 grid-rows-1 gap-3 p-2 md:grid-row-2 md:grid-cols-3 place-content-center"
+    >
       <!--First Projects-->
-      <div class="border-[1px] w-90 rounded-md border-gray-300 flex p-3">
+      <div
+        class="border-[1px] md:w-85 w-87 rounded-md border-gray-300 flex p-3"
+      >
         <img class="w-20" :src="SchoolLogo" alt="SchoolProject" />
-        <div class="flex flex-col">
+        <div class="flex flex-col gap-2">
           <p>School Enrrolment System</p>
           <p>Not Been Deployed</p>
           <div class="flex items-center gap-2">
@@ -30,9 +34,11 @@ import CafeWebLogo from "../assets/img/CafeWeb.png";
         </div>
       </div>
       <!--Second Project-->
-      <div class="border-[1px] w-90 rounded-md border-gray-300 flex p-3">
+      <div
+        class="border-[1px] md:w-85 w-87 rounded-md border-gray-300 flex p-3"
+      >
         <img class="w-20" :src="WebsiteLogoImg" alt="SchoolProject" />
-        <div class="flex flex-col">
+        <div class="flex flex-col gap-2">
           <p>Ebarangay Appointment System</p>
           <a
             target="_blank"
@@ -47,9 +53,11 @@ import CafeWebLogo from "../assets/img/CafeWeb.png";
         </div>
       </div>
       <!--Third Project-->
-      <div class="border-[1px] w-90 rounded-md border-gray-300 flex p-3">
+      <div
+        class="border-[1px] md:w-85 w-87 rounded-md border-gray-300 flex p-3"
+      >
         <img class="w-17" :src="logobarber" alt="SchoolProject" />
-        <div class="flex flex-col">
+        <div class="flex flex-col gap-3">
           <p>Ebarangay Appointment System</p>
           <a
             target="_blank"
@@ -64,9 +72,11 @@ import CafeWebLogo from "../assets/img/CafeWeb.png";
         </div>
       </div>
       <!--Fouth Project-->
-      <div class="border-[1px] w-90 rounded-md border-gray-300 flex p-3">
+      <div
+        class="border-[1px] md:w-85 w-87 rounded-md border-gray-300 flex p-3"
+      >
         <img class="w-17" :src="Plumbang" alt="SchoolProject" />
-        <div class="flex flex-col">
+        <div class="flex flex-col gap-2">
           <p>Ebarangay Appointment System</p>
           <p>Not Been Deployed</p>
           <div class="flex items-center gap-2">
@@ -76,9 +86,11 @@ import CafeWebLogo from "../assets/img/CafeWeb.png";
         </div>
       </div>
       <!--Fifth Project-->
-      <div class="border-[1px] w-90 rounded-md border-gray-300 flex p-3">
+      <div
+        class="border-[1px] md:w-85 w-87 rounded-md border-gray-300 flex p-3"
+      >
         <img class="w-17" :src="CafeWebLogo" alt="SchoolProject" />
-        <div class="flex flex-col">
+        <div class="flex flex-col gap-2">
           <p>Ebarangay Appointment System</p>
           <p>Not Been Deployed</p>
           <div class="flex items-center gap-2">

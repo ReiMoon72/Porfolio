@@ -4,14 +4,14 @@ import { ref } from "vue";
 </script>
 
 <template>
-  <header class="font-inter px-6 py-10 md:p-12">
+  <header class="font-inter px-6 py-10 md:p-12" data-aos="fade-up">
     <div class="text-center">
       <b class="text-3xl">About Me</b>
     </div>
   </header>
 
   <!--Main-->
-  <main class="font-inter">
+  <main class="font-inter p-2" data-aos="fade-up" data-aos-duration="700" id="AboutScool">
     <div
       class="flex flex-col md:flex-row justify-around items-start md:items-center gap-10 px-5 md:px-0"
     >
