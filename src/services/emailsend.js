@@ -4,7 +4,7 @@ const TEMPLATE_ID = import.meta.env.VITE_TEMPLATE_ID;
 const SERVICE_ID = import.meta.env.VITE_SERVICE_ID;
 const PUBLIC_KEY = import.meta.env.VITE_PUBLIC_KEY;
 
-export const EmailSendJS = async (SendEmail) => {
+export const EmailSendJS = async (EmailSenderJS) => {
   const TemplateJS = {
     name: EmailSenderJS.name,
     email: EmailSenderJS.email,
