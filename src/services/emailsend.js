@@ -11,5 +11,5 @@ export const EmailSendJS = async (EmailSenderJS) => {
     subject: EmailSenderJS.subject,
     message: EmailSenderJS.message,
   };
-  return emailjs.send(SERVICE_ID, TEMPLATE_ID, EmailSendJS, PUBLIC_KEY);
+  return emailjs.send(SERVICE_ID, TEMPLATE_ID, TemplateJS, PUBLIC_KEY);
 };
