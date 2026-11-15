@@ -15,9 +15,12 @@ import CafeWebLogo from "../assets/img/CafeWeb.png";
     </div>
   </header>
 
-  <main class="font-inter p-2" data-aos="fade-right" data-aos-duration="800" id="ProjectUp">
+  <main class="font-inter p-2" id="ProjectUp">
     <div
       class="grid grid-cols-1 grid-rows-1 gap-3 p-2 md:grid-row-2 md:grid-cols-3 place-content-center"
+      data-aos="fade-up"
+      data-aos-duration="800"
+      data-aos-offset="100"
     >
       <!--First Projects-->
       <div

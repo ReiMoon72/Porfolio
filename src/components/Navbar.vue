@@ -61,7 +61,7 @@ const ContactScrollUp = (id) => {
 </script>
 
 <template>
-  <nav class="font-inter p-2 bg-darkblue text-white sticky top-0 z-50">
+  <nav class="border-b font-inter p-2 bg-darkblue text-white sticky top-0 z-50">
     <div class="flex justify-between items-center flex-col md:flex-row p-2">
       <div class="flex items-center gap-60">
         <b class="text-2xl">RGP</b>
