@@ -21,6 +21,7 @@ const skills = ["HTML5", "CSS3", "JavaScript", "Vue", "Tailwind CSS"];
     class="font-inter p-2"
     data-aos="fade-up"
     data-aos-duration="700"
+    data-aos-offset="50"
     id="SkillsScrollUp"
   >
   <SkillInfiniteLoop />

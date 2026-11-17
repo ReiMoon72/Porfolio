@@ -1,7 +1,6 @@
 <script setup>
 import { ref } from "vue";
 import SchoolLogo from "../assets/img/SchoolLogo.png";
-import WebsiteLogoImg from "../assets/img/WebsiteLogoImg.png";
 import Plumbang from "../assets/img/Plumbang.png";
 import CafeWebLogo from "../assets/img/CafeWeb.png";
 import ProjectPage from "../UI-Components/ProjectPage.vue";

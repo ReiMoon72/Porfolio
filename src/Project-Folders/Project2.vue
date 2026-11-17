@@ -1,18 +1,19 @@
 <script setup>
 import { ref } from "vue";
-import logobarber from "../assets/img/logobarber.png";
+import WebsiteLogoImg from "../assets/img/WebsiteLogoImg.png";
+
 </script>
 
 <template>
   <main
     class="font-inter p-2 hover:scale-105 ease-in-out duration-200 cursor-pointer w-fit"
   >
-    <div class="shadow-2xl w-fit rounded-md">
+    <div class="shadow-2xl w-fit h-[19.8vw] rounded-md">
       <div class="bg-gray w-full rounded flex items-center justify-center p-2">
-        <img class="w-30" :src="logobarber" alt="" />
+        <img class="w-30" :src="WebsiteLogoImg" alt="" />
       </div>
-      <div class="p-2 flex flex-col gap-1">
-        <b>Rick & Blade Barber Shop Website</b>
+      <div class="p-2 flex flex-col gap-[10px]">
+        <b>Barangay Appointments E-System</b>
         <b>
           Status:
           <span class="font-normal">🟢Finish</span>
@@ -22,7 +23,7 @@ import logobarber from "../assets/img/logobarber.png";
           <a
             class="underline underline-offset-5 hover:text-blue-900"
             target="_blank "
-            href="https://brick-and-blade.vercel.app/"
+            href="https://e-barangay-appointment-system.vercel.app/"
             >Live App</a
           >
         </p>

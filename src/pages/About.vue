@@ -22,7 +22,7 @@ import AboutMainCompoenent from "../UI-Components/AboutMainCompoenent.vue";
     data-aos-duration="700"
     data-aos-offset="200"
   >
-    <div class="flex justify-around">
+    <div class="flex justify-around flex-col md:flex-row">
       <AboutComponent />
       <AboutMainCompoenent />
     </div>
