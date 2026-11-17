@@ -1,5 +1,4 @@
 <script setup>
-import { MapPin, University } from "@lucide/vue";
 import { ref } from "vue";
 import AboutComponent from "../UI-Components/AboutComponent.vue";
 import AboutMainCompoenent from "../UI-Components/AboutMainCompoenent.vue";

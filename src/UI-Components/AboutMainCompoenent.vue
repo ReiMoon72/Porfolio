@@ -1,4 +1,5 @@
 <script setup>
+import { MapPin, University } from "@lucide/vue";
 import { ref } from "vue";
 </script>
 
