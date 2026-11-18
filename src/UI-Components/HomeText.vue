@@ -11,11 +11,11 @@ import github from "../assets/icons/github-white.svg";
       <b class="text-[35px]">Reimone Glaire M. <br />Palama</b>
       <div class="flex items-center justify-evenly gap-10">
         <div class="flex flex-col items-center">
-          <p class="text-4xl font-bold">5</p>
+          <p class="text-4xl font-bold">6</p>
           <p>Projects</p>
         </div>
         <div class="flex flex-col items-center">
-          <p class="text-4xl font-bold">3</p>
+          <p class="text-4xl font-bold">4</p>
           <p>Full Stack</p>
         </div>
         <div class="flex flex-col items-center">

@@ -1,14 +1,13 @@
 <script setup>
 import { ref } from "vue";
 import WebsiteLogoImg from "../assets/img/WebsiteLogoImg.png";
-
 </script>
 
 <template>
   <main
     class="font-inter p-2 hover:scale-105 ease-in-out duration-200 cursor-pointer w-fit"
   >
-    <div class="shadow-2xl w-fit h-[19.8vw] rounded-md">
+    <div class="shadow-2xl w-fit rounded-md">
       <div class="bg-gray w-full rounded flex items-center justify-center p-2">
         <img class="w-30" :src="WebsiteLogoImg" alt="" />
       </div>
@@ -18,6 +17,7 @@ import WebsiteLogoImg from "../assets/img/WebsiteLogoImg.png";
           Status:
           <span class="font-normal">🟢Finish</span>
         </b>
+        <b>Category: <span class="font-normal">Full Stack</span></b>
         <p>
           Deploy:
           <a
@@ -27,7 +27,11 @@ import WebsiteLogoImg from "../assets/img/WebsiteLogoImg.png";
             >Live App</a
           >
         </p>
-        <button class="font-inter cursor-pointer bg-gray text-white p-1 w-fit rounded">Know More About This Project</button>
+        <button
+          class="font-inter cursor-pointer bg-gray text-white p-1 w-fit rounded"
+        >
+          Know More About This Project
+        </button>
       </div>
     </div>
   </main>

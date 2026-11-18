@@ -17,6 +17,7 @@ import logobarber from "../assets/img/logobarber.png";
           Status:
           <span class="font-normal">🟢Finish</span>
         </b>
+        <b>Category: <span class="font-normal">Full Stack</span></b>
         <p>
           Deploy:
           <a
@@ -26,7 +27,11 @@ import logobarber from "../assets/img/logobarber.png";
             >Live App</a
           >
         </p>
-        <button class="font-inter cursor-pointer bg-gray text-white p-1 w-fit rounded">Know More About This Project</button>
+        <button
+          class="font-inter cursor-pointer bg-gray text-white p-1 w-fit rounded"
+        >
+          Know More About This Project
+        </button>
       </div>
     </div>
   </main>
